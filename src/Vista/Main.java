@@ -18,7 +18,7 @@ public class Main {
         Persona p1=new Persona(001, "Marlon Alexis", "Anrrango Cuaspud", "1005444698", "Ibarra", "0978861713", "marlon@gmail.com", "06/08/2003", "Masculino");
     
     p1.imprimir();
-    //p1.validarCedula();
+    p1.validarCedula();
     System.out.println("------------\n"+p1.toString());
     
         // OBJETO PERSONAPRIVATE
